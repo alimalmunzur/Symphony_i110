@@ -1,0 +1,283 @@
+/*========================================================
+	
+	Author	: 	A.Alim Al Munzur Nasim
+    Company :   BDX Hoster
+	
+	Item 	: 	Symphony i110 - Landing Page
+	
+----------------------------------------------------------
+	List of Contents
+----------------------------------------------------------
+	
+	01. 
+	
+	02. 
+	
+	03. 
+	
+	04. 
+	
+	05. 
+	
+	06. 
+	
+========================================================*/
+
+/*========================================================
+	General Styles
+========================================================*/
+
+.navbar-nav > li.active > a,
+.navbar-nav > li > a:hover {
+    color: #ff0a0a !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+body,
+.datepicker {
+    font-family: 'Open Sans';
+    font-size: 18px !important;
+    font-style: inherit;
+    font-weight: 400;
+    text-transform: inherit;
+}
+
+h2 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 3em !important;
+    font-style: inherit;
+    font-weight: 200;
+    text-transform: inherit;
+}
+/*symphony O is red */
+.ored {
+    color: red;
+}
+/*end */
+.animatedbtr {
+    max-height: 120px;
+}
+.hero h2 {
+    font-size: 36px !important;
+}
+
+.icon4-4gsvg-1 {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+.features-section2 {
+    background-color: #fff;
+    padding-top: 60px !important;
+    padding-bottom: 30px !important;
+/*    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;*/
+    height: 100%;
+    color: #262424;
+}
+.col-feature {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 20px;
+    height: 120px;
+    width: 120px;
+    overflow: none;
+    align-content: center;
+}
+
+.col-feature > i {
+    border: solid 1px #c80b1e;
+    color: #c80b1e;
+}
+.mockup {
+    padding: 30px;
+}
+.boxx {
+    border-left: 1px solid red;
+}
+
+#desc-center-slogan-img-text_2 {
+    background: url(../images/Narrow-bezel.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    min-height: 900px;
+
+}
+
+#desc-center-slogan-img-text_3 {
+    background: url(../images/Full-Vision.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    min-height: 700px;
+
+}
+/*#desc-center-slogan-img-text_3 {
+    background: url(../images/fullvision.png), url(../images/Full-Vision.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size:contain, cover;
+    -moz-background-size:contain,  cover;
+    -o-background-size:contain,  cover;
+    background-size:contain,  cover;
+    overflow: hidden;
+    min-height: 900px;
+
+}*/
+
+#desc-center-slogan-img-text_4 {
+    background: url(../images/performance.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    min-height: 900px;
+    
+
+}
+
+/* --------------panorama */
+
+#containerdrag {
+    /*        width: 600px;
+        height: 350px;*/
+    position: absolute;
+    /*        top: 50px;*/
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    /*background-color: hsl(0, 0%, 85%);*/
+    /*        border: 1px solid*/
+}
+
+#box {
+    /*        width: 200px;
+        height: 200px;*/
+    position: absolute;
+    /*        top: 75px;
+        left: 200px;*/
+    /*background-color: rgb(120,120,120);*/
+    cursor: move;
+    transform: scale(1);
+}
+
+#box p {
+    position: relative;
+    top: 50px;
+    color: white;
+    text-shadow: 2px 2px 3px black
+}
+
+/* --------------END panorama */
+
+#desc-center-slogan-img-text_5 {
+    background: url(../images/4g/4g_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+.fourg {
+    z-index: 3;
+    position: relative;
+}
+
+.compressed-box-70 {
+    max-width: 70%;
+}
+
+.compressed-box-100 {
+    max-width: 100%;
+}
+
+/* camera page */
+
+/*HDR */
+
+#cf6_image {
+    margin: 0 auto;
+    width: 450px;
+    height: 281px;
+    transition: background-image 1s ease-in-out;
+    background-image: url("/images/Windows%20Logo.jpg");
+}
+
+#cf6_image:hover {
+    background-image: url("/images/Turtle.jpg");
+}
+
+/* End HDR */
+
+/*==============================
+  Slider
+  ==============================*/
+
+.inner {
+    height: 600px;
+    background-image: url('../images/hdr_bg_1.jpg');
+    background-size: cover;
+    cursor: pointer;
+}
+
+.left {
+    background-image: url('../images/hdr_bg_2.jpg');
+    width: 50%;
+    height: 600px;
+    background-size: cover;
+    background-position: left;
+    /*   filter: saturate(2);*/
+    max-width: 100% !important;
+
+}
+
+.line {
+    width: 2px;
+    border: 2px solid #ff0a0a;
+    position: absolute;
+    height: 600px;
+    z-index: 9999;
+    margin-left: 0px;
+}
+
+.padleft {
+    padding-left: 20px;
+}
+
+.section-2 {
+    z-index: 1;
+    position: relative;
+    /*padding: 100px;*/
+    min-height: 500px;
+    background-color: #fffff;
+    h1 {
+        color: #373a3c;
+    } //box-shadow: 0px 10px 10px #373a3c inset;
+}

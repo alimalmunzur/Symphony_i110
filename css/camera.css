@@ -1,0 +1,281 @@
+/*========================================================
+	
+	Author	: 	A.Alim Al Munzur Nasim
+    Company :   BDX Hoster
+	
+	Item 	: 	Symphony i110 - Landing Page - Camera
+	
+----------------------------------------------------------
+	List of Contents
+----------------------------------------------------------
+	
+	01. 
+	
+	02. 
+	
+	03. 
+	
+	04. 
+	
+	05. 
+	
+	06. 
+	
+========================================================*/
+
+/*========================================================
+	General Styles
+========================================================*/
+
+.camerah h1 {
+    font-size: 58px;
+}
+
+.camerah h2 {
+    font-size: 33px !important;
+}
+
+#header-img-slogan-btn-2 {
+    background: linear-gradient(to bottom, #000000, #272443);
+    background: -webkit-linear-gradient(top, #000000, #272443);
+}
+
+#header-img-slogan-btn-2 .bg {
+    background-image: url('../images/bg-28.jpg');
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-background-repeat: no-repeat;
+    background-position: bottom center;
+    opacity: 0.5;
+}
+
+#desc-halfbg-text-btn .half-container-left {
+    background-image: url('../images/bg-9.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    opacity: 1;
+}
+
+#desc-text-list-quartbg {
+    background: #222222;
+}
+
+#desc-text-list-quartbg .quarter-container-right {
+    background-image: url('../images/screen-45.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+}
+
+#desc-full-text-btn-halfbg {
+    background: #453e39;
+}
+
+#desc-full-text-btn-halfbg .half-container-right {
+    background-image: url('../images/screen-47.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+}
+
+#desc-halfbg-list-btn .half-container-left {
+    background-image: url('../images/bg-19.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    opacity: 1;
+}
+
+#desc-center-slogan-img-text .bg {
+    background-image: url('../images/abstract-bg-6.png');
+    background-size: contain;
+    -webkit-background-size: contain;
+    background-repeat: no-repeat;
+    -webkit-background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 1;
+}
+
+#desc-halfbg-text {
+    background: #f8f9fb;
+}
+
+#desc-halfbg-text .half-container-left {
+    background-image: url('../images/bg-4.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    opacity: 1;
+}
+
+#desc-text-img .bg {
+    background-image: url('../images/camera_bg.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*        background-attachment: fixed;*/
+    height: 100%;
+    overflow: hidden;
+    min-height: 600px;
+    opacity: 0.35;
+}
+
+#desc-text-img10 .bg {
+    background-image: url('../images/bok.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.camerabg {
+    background-image: url('../images/camera2.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*        background-attachment: fixed;*/
+    height: 100%;
+    overflow: hidden;
+    min-height: 700px;
+}
+
+#desc-text-img {
+    background: linear-gradient(to bottom, #353b4a, #000000);
+}
+
+#desc-text-img2 .bg {
+    background-image: url('../images/selfie_bg.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    /*background-attachment: fixed;*/
+    min-height: 700px;
+}
+
+#desc-text-img3 {
+    background-color: #4d4c4c;
+}
+
+#panorama {
+    background-image: url(../images/pan.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*        background-attachment: fixed;*/
+    height: 100%;
+    overflow: hidden;
+    min-height: 600px;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+
+
+#desc-text-img4 {
+    background-color: #777777;
+    background-image: url(../images/hdr_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+}
+
+img.screen2,
+a.screen2 img,
+.owl-carousel .owl-item img.screen2 {
+    max-width: 125%;
+    height: auto;
+}
+
+#footer-fluid-text-icon-social {
+    background: #222222;
+}
+#desc-text-img12 {
+    background-image: url('../images/nightshot.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    /*background-attachment: fixed;*/
+    height: 900px;
+}
+
+/* bokeh */
+
+@media (min-width: 768px) and (max-width: 1920px) {
+    #desc-text-img5 {
+        background-image: url(../images/bokeh.png), url('../images/bokhe_bg.jpg');
+        background-position: right center, center;
+        background-repeat: no-repeat;
+        -webkit-background-size: contain cover;
+        -moz-background-size: contain cover;
+        -o-background-size: contain cover;
+        background-size: contain cover;
+        background-attachment: scroll, fixed;
+        overflow: hidden;
+        min-height: 700px;
+    }
+    .bokehbg {
+        display: none;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    /*    #desc-text-img5 {
+        background-image:url('../images/bokhe_bg.jpg');
+        background-position:left;
+        background-repeat: no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        overflow: hidden;
+        min-height: 700px;
+    }*/
+    #desc-text-img5 {
+        min-height: 700px;
+    }
+    .bokehbg2 {
+        background-image: url('../images/bokeh.png');
+        background-position: bottom;
+        background-repeat: no-repeat;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+        overflow: hidden;
+
+    }
+    .bokehbg {
+        display: none;
+    }
+
+
+}

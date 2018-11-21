@@ -1,0 +1,97 @@
+/*========================================================
+	
+	Author	: 	A.Alim Al Munzur Nasim
+    Company :   BDX Hoster
+	
+	Item 	: 	Symphony i110 - Landing Page - Specification
+	
+----------------------------------------------------------
+	List of Contents
+----------------------------------------------------------
+	
+	01. 
+	
+	02. 
+	
+	03. 
+	
+	04. 
+	
+	05. 
+	
+	06. 
+	
+========================================================*/
+
+/*========================================================
+	General Styles
+========================================================*/
+#desc-img-accordion .bg {
+	background-image: url('../images/bg-scene-2.jpg');
+	background-size: cover;
+	-webkit-background-size: cover;
+	background-repeat: no-repeat;
+	-webkit-background-repeat: no-repeat;
+	background-position: center center;
+	opacity: 0.5;
+}#footer-fluid-text-icon-social {
+	background: #222222;
+}
+/* ----------------------- SPECIFICATION -------------------------------------- */
+    #specs {
+        margin-top: 16rem;
+        background-color: #ffffff;
+    }
+
+    .sptext h2 {
+        color: #373737;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        font-size: 5rem;
+    }
+
+    .sptext h3 {
+        color: #373737;
+        font-size: 1em;
+    }
+
+    .sptext p {
+        color: #373737;
+        text-align: left;
+    }
+
+    .sptext {
+        color: #373737 !important;
+        text-align: center;
+    }
+    .sphr {
+        display: block;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: groove;
+        border-width: 1px;
+        color: fuchsia;
+    }
+    .hrbelow {
+        display: block;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5em;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: inset;
+        border-width: 1px;
+    }
+    #cpu-memory {
+        height: auto;
+        padding-top: 40px;
+    }
+    h4.h4text {
+        line-height: 2;
+    }
+    .fourg span {
+        font-size: 3em;
+        font-weight: 600;
+        color: #337ab7;
+    }

@@ -1,0 +1,294 @@
+/*========================================================
+	
+	Author	: 	A.Alim Al Munzur Nasim
+    Company :   BDX Hoster
+	
+	Item 	: 	Symphony i110 - Landing Page
+	
+----------------------------------------------------------
+	List of Contents
+----------------------------------------------------------
+	
+	01. 
+	
+	02. 
+	
+	03. 
+	
+	04. 
+	
+	05. 
+	
+	06. 
+	
+========================================================*/
+
+/*========================================================
+	General Styles
+========================================================*/
+
+#nav-fluid-logo-menu .nav-bg {
+    opacity: 1;
+}
+
+#header-img-slogan-btn-img {
+    background: linear-gradient(135deg, #0079d6, #ff2c76);
+}
+
+#header-img-slogan-btn-img .bg {
+    /*animation: slide 60s ease-in infinite alternate;*/
+    background-image: url("../images/hero_bg.jpg");
+    /* background-repeat: repeat;*/
+    /*	background-image: url('../images/bg-work-2.jpg');
+	background-size: cover;
+	-webkit-background-size: cover;
+	background-repeat: no-repeat;
+	-webkit-background-repeat: no-repeat;
+	background-position: bottom center;
+	opacity: 0.08;*/
+}
+
+@keyframes slide {
+    to {
+        background-position: 0 50%;
+    }
+}
+
+/* 4G */
+
+#SkXgeIY6UKM {
+    fill: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Batterry */
+
+#SkQlz4c8YcG {
+    fill: #fff;
+}
+
+#Layer_1 {
+    max-height: 120px;
+}
+
+#desc-center-slogan-img-text .bg {
+    background-image: url('../images/abstract-bg-6.png');
+    background-size: contain;
+    -webkit-background-size: contain;
+    background-repeat: no-repeat;
+    -webkit-background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 1;
+}
+
+#benefit-4col-border-2 {
+    background: linear-gradient(to bottom, #2b356f, #353b4a);
+}
+
+#header-center-logo-slogan-img {
+    background: #353b4a;
+}
+
+#header-center-logo-slogan-img .bg {
+    opacity: 0.15;
+}
+
+#desc-text-img-img {
+    background: #000000;
+}
+
+#desc-text-img-img .bg {
+    background-image: url('../images/abstract-bg-4.png');
+    background-size: 760px auto;
+    -webkit-background-size: 760px auto;
+    background-repeat: no-repeat;
+    -webkit-background-repeat: no-repeat;
+    background-position: top right;
+    opacity: 0.8;
+}
+
+#desc-img-text {
+    background: #f8f9fb;
+}
+
+#header-center-carousel {
+    background: radial-gradient(circle, #444444 30%, #000000 70%);
+}
+
+#header-center-carousel .bg {
+    /*background-image: url('../images/bg-corner.png'); */
+    background-size: 127px auto;
+    -webkit-background-size: 127px auto;
+    background-repeat: no-repeat;
+    -webkit-background-repeat: no-repeat;
+    background-position: right bottom;
+    opacity: 1;
+}
+
+#header-center-slogan-img {
+    background: #2b356f;
+}
+
+#header-center-slogan-img .bg {
+    background-image: url('../images/bg-3.jpg');
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 0.64;
+}
+
+#footer-fluid-text-icon-social {
+    background: #222222;
+}
+
+/* bokeh */
+
+@media (min-width: 768px) and (max-width: 1920px) {
+    #desc-text-img5 {
+        background-image: url(../images/slim.png), url('../images/slim_bg.jpg');
+        background-position: left bottom, center;
+        background-repeat: no-repeat;
+        -webkit-background-size: contain cover;
+        -moz-background-size: contain cover;
+        -o-background-size: contain cover;
+        background-size: contain cover;
+        background-attachment: scroll, fixed;
+        overflow: hidden;
+        min-height: 700px;
+    }
+    .bokehbg {
+        display: none;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    /*    #desc-text-img5 {
+        background-image:url('../images/bokhe_bg.jpg');
+        background-position:left;
+        background-repeat: no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        overflow: hidden;
+        min-height: 700px;
+    }*/
+    #desc-text-img5 {
+        min-height: 400px;
+        background-image: url('../images/slim_bg.jpg');
+        background-position: center top;
+        background-repeat: no-repeat;
+
+    }
+    .bokehbg2 {
+        background-image: url('../images/slim.png');
+        background-position: bottom;
+        background-repeat: no-repeat;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+        overflow: hidden;
+
+    }
+    .bokehbg {
+        display: none;
+    }
+
+}
+
+/* for i110 */
+
+/* ================================================================================== */
+
+/* Hero section */
+
+.mainspecs {
+    background-image: url('../images/blue_blur.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+
+/*End of Zoom out Keyframes */
+
+/*End Hero section */
+
+.inch {
+    color: #fff;
+    fill: #fff;
+
+}
+
+/* Fingerprint Sensor */
+
+@media (min-width: 768px) and (max-width: 1920px) {
+    #desc-text-img6 {
+        background-image: url(../images/FingerPrint.png), url('../images/FingerPrint-security.jpg');
+        background-position: left bottom, center;
+        background-repeat: no-repeat;
+        -webkit-background-size: contain cover;
+        -moz-background-size: contain cover;
+        -o-background-size: contain cover;
+        background-size: contain cover;
+        background-attachment: scroll, fixed;
+        overflow: hidden;
+        min-height: 900px;
+    }
+    .fingerprint {
+        /*display: none;*/
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    #desc-text-img6 {
+        display: none;
+    }
+}
+
+/* Fingerprint Sensor Mobile Screen */
+
+@media (min-width: 768px) and (max-width: 1920px) {
+    #desc-text-img7 {
+        display: none;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    /*    #desc-text-img5 {
+        background-image:url('../images/bokhe_bg.jpg');
+        background-position:left;
+        background-repeat: no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        overflow: hidden;
+        min-height: 700px;
+    }*/
+    #desc-text-img7 {
+        min-height: 700px;
+    }
+    #desc-text-img7 {
+        background-image: url('../images/FingerPrint.png');
+        background-position: bottom;
+        background-repeat: no-repeat;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+        overflow: hidden;
+    }
+    .fingerprinthbg {
+        display: none;
+    }
+}
